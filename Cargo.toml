@@ -1,0 +1,4 @@
+[package]
+name = "htmos-boot-info"
+version = "0.9.0" # version will change to 1.0 when I call it stable and ready.
+edition = "2015"
