@@ -5,6 +5,9 @@
 /// This struct should change size between 32- and 64-bit architecture.
 #[repr(C)]
 pub struct HTMOSBootInformation {
+    /// "HTMLBOOT" - 0x48544D4C424F4F54
+    pub magic: u64,
+
     /// Boot mode indicator
     /// 
     /// - **0** - BIOS
